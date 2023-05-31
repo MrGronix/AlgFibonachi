@@ -1,13 +1,10 @@
-﻿using System;
-
-class Program
-{
-    static void Main()
+﻿    static int Fibonacci(int a)
     {
-        int a = 10;
-
-        Console.WriteLine($"Число Фібоначчі для {a} = {Fibonacci(a)}");
+        if (a <= 0)
+            return 0;
+        else if (a == 1)
+            return 1;
+        else
+            return Fibonacci(a - 1) + Fibonacci(a - 2);
     }
-
-
 }
