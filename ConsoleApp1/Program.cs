@@ -9,5 +9,3 @@ class Program
         Console.WriteLine($"Число Фібоначчі для {a} = {Fibonacci(a)}");
     }
 
-
-}
